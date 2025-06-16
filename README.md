@@ -22,3 +22,17 @@ FIVE STEPS TO SETUP
 - Create folder
 - Get API keys
 - Test from dev UI
+
+  HOW TO RUN?
+  Using the terminal, navigate to the parent directory of your agent project:
+
+cd agentic-apps/renovation-agent
+Install all dependencies
+
+pip install -r requirements.txt
+You can run the following command in your Cloud Shell terminal to execute the agent:
+
+adk run .
+You can run the following to run it in an ADK provisioned web UI:
+
+adk web
